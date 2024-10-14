@@ -1,0 +1,31 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.hero {
+  background: url('https://via.placeholder.com/1920x600') center center / cover no-repeat;
+}
+
+/* Services Section */
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Testimonials Section */
+blockquote {
+  border-left: 5px solid #007bff;
+  padding-left: 15px;
+  margin: 20px 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color: white;
+}
